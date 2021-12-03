@@ -1,0 +1,226 @@
+body { background-color: black;
+
+}
+.container {
+    width: 100%;
+    font-family: arial;
+}
+
+.header {
+    display: flex;
+    height: 100vh;
+    min-height: 100vh;
+
+}
+.header-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    font-size: 50px;
+    color: rgba(78, 109, 142, 1);
+    padding: 30px;
+}
+.header-title:hover {
+    color: black;
+    transition: all 1s;
+}
+.header-cover {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+.header-cover img{
+    width: 100%;
+}
+audio {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.about {
+    display: flex;
+    width: 80%;
+    text-align: left;
+    justify-content: center;
+    font-size: 1,8vw;
+    color: rgba(78, 109, 142, 1);
+    padding: 100px;
+}
+
+.gtoup1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+.group1 img{
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    }
+.gtoup2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+ }
+.group2 img{
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+        }
+.gtoup3 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+.group3 img{
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+            }       
+    
+ .lyrics-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    font-size: 50px;
+    color: rgba(78, 109, 142, 1);
+    padding: 30px;
+
+ }   
+.hidden-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: rgba(78, 109, 142, 1);
+    padding: 30px;
+
+}
+.jimin1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+.jimin1 img {
+    align-items: center;
+    width: 100%;
+}
+.jimin2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+body {
+    background-color: rgba(78, 109, 142, 1);
+}
+.header {
+    flex-direction: column;
+    
+    
+}
+.header-title {
+        width: 100%;
+        height: 50%;
+        font-size: 30px;
+        box-sizing: border-box;
+       
+       
+}
+.header-cover {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    box-sizing: border-box;
+}
+.header-cover img{
+    width: 80%;
+}
+.about {
+    display: flex;
+    width: 90%;
+    text-align: left;
+    justify-content: center;
+    font-size: 2vw;
+    color: black;
+    padding: 40px;
+}
+.group {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    
+}
+.lyrics-head {
+    text-indent: 9999px;
+    display: inline-block;
+}
+
+.jimin1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+}
+.jimin1 img {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 150px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.jimin2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+}
+.jimin2 img {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 150px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+}
