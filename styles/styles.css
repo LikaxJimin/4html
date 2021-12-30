@@ -4,6 +4,8 @@ body { background-color: black;
 .container {
     width: 100%;
     font-family: arial;
+    min-width: 500px;
+    margin: auto;
 }
 
 .header {
