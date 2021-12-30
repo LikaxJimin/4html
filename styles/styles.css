@@ -1,13 +1,9 @@
 body { background-color: black;
-    position: relative;
-   
-    height: 100%;
 
 }
 .container {
     width: 100%;
     font-family: arial;
-   
 }
 
 .header {
@@ -171,14 +167,9 @@ audio {
     width: 100%;
 }
 
-@media only screen and (max-width: 481px) {
+@media only screen and (max-width: 1000px) {
 body {
-    width: 100%;
- 
     background-color: rgba(78, 109, 142, 1);
-}
-.container {
-    width: 100%;
 }
 .header {
     flex-direction: column;
