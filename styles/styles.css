@@ -167,7 +167,7 @@ audio {
     width: 100%;
 }
 
-@media only screen and (max-width: 375 x 812px) {
+@media only screen and (max-width: 1000px) {
 body {
     size: 375 x 812px;
     background-color: rgba(78, 109, 142, 1);
