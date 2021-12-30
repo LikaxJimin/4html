@@ -72,6 +72,10 @@ audio {
 .member1 {
     position: relative;
     top: -330px; left: 130px;
+}  
+.member2 {
+    position: relative;
+    top: -340px; left: 430px;
 }    
 .gtoup2 {
     display: flex;
