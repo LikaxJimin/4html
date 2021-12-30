@@ -69,6 +69,10 @@ audio {
     width: 100%;
     align-items: center;
     }
+.member1 {
+    position: relative;
+    top: 40px; left: 40px;
+}    
 .gtoup2 {
     display: flex;
     justify-content: space-between;
