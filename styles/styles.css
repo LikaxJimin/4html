@@ -169,6 +169,7 @@ audio {
 
 @media only screen and (max-width: 375 x 812px) {
 body {
+    size: 375 x 812px;
     background-color: rgba(78, 109, 142, 1);
 }
 .header {
