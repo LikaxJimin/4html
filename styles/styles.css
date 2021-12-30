@@ -84,7 +84,11 @@ audio {
 .member4 {
     position: relative;
     top: -550px; left: 290px;
-}   
+}  
+.member5 {
+    position: relative;
+    top: -220px; left: 830px;
+}  
 .gtoup2 {
     display: flex;
     justify-content: space-between;
