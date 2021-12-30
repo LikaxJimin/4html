@@ -8,7 +8,7 @@
 html { background-color: #000; } 
 body {
     min-height: 100vh;
-    max-width: 400px;
+    max-width: 100vh;
     background-color: papayawhip; 
     margin: 0 auto;
 }
