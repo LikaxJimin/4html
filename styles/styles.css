@@ -1,16 +1,9 @@
-/* body { background-color: black;
+body { background-color: black;
     position: relative;
     min-width: 1024px;
     min-height: 768px;
     height: 100%;
 
-} */
-
-body {
-    min-height: 100vh;
-    max-width: 100vh;
-    background-color: papayawhip; 
-    margin: 0 auto;
 }
 .container {
     width: 100%;
